@@ -13,22 +13,17 @@ Työ tehtiin yksilötyönä
 
 ## Oma arvio työstä ja oman osaamisen kehittymisestä
 
-Asetin itselleni useita tavoitteita projektin työstämiseen. Näistä mainittakoon:
-- Git komentorivin käytön harjaantuminen
-- Tailwindcss:n käyttö sovelluksen tyylien muokkaamisessa
-- Versiohallinnan ja haarojen käytössä harjaantuminen
+Työ opetti jälleen paljon, vaikka tuntuukin että täysin tutuiksi en jQuery kanssa toimimiseen päässytkään. Joka tapauksessa projektissa olleet vastoinkäymiset opettivat jälleen paljon ohjelmistokehityksestä ja antoi hyödyllistä tietoa jatkoa ajatellen.
 
-Onnistuin saamaan tehtävänannon määrittämät toiminnallisuudet sisällytettyä sovellukseen. Omien tavoitteiden saavuttaminen kokonaisuudessaan oli hieman liian suuri tavoite yhdellä kertaa. Esim. pudotusvalikkoa lähdin alussa tekemään täysin tailwind:llä, mutta jouduin palaamaan jossain vaiheessa JS:n perustason <select> -elementin käyttämiseen.
-Huomattava määrä aikaa kului muutoinkin sovelluksen UI:n viimeistelyyn, koska lähdin opettelemaan Tailwind:ä käytännössä alusta. Muilta osin kehittäminen meni kohtalaisen hvyin. 
+Onnistuin saamaan tehtävänannon määrittämät vaatimukset pääsääntöisesti sisällytettyä sovellukseen. Käyttämäni API ei kuitenkaan mahdollistanut API-kutsuja selaimesta, joten ulkopuolisen datan dynaaminen hakeminen jäi tällä kertaa pois, koska osaaminen ja ajankäyttö ei tällä kertaa mahdollistanut alkaa harjoittelemaan backendistä lähteviä API-kutsuja. 
 
-TMDB:n API:n käyttö oli minulle uutta ja dokumentaation tutustumiseen meni oma aikansa. Aluksi en saanut API-kutsuja lähtemään, jolloin päätin mennä helpompaa ja tutumpaa tietä funktiokutsujen osalta.
+Sovelluksen alkluperäisenä tarkoituksena oli hakea vesi- ja jätepalvelun kulutustietoja HSY:n tilastorajapinnasta testitunnuksilla. HSY:n API ei kuitenkaan mahdollistanut API-kutsujen tekemistä selaimesta, vaan palautti CORS-virhettä. Päätin kuitenkin jatkaa valitsemallani tiellä ja hain Postman:n kautta muutaman testidatasetin tallennettavaksi projektikansioon.
 
-Jälleen koen, että olen oppinut valtavista JavaScript-kehittämisestä projektin aikana. Oppiminen tuntuu olevan väillä tuskastuttavan hidastta, ja tähänkin projektiin käytetty aika ja työmäärä ylitti ennakkoarvion huomattavasti. Kuitenkin tuntuu että koko ajan pääsee paremmin ja paremmin "jyvälle" aiheesta, eikä ihan jokaiseen asiaan tarvitse enää tukeutua googleen tai tekoälyyn. 
-Palautuksen myöhästymisestä johtuen, antaisin itselleni pisteitä seuraavasti: 7/10 p
+Tekemällä oppii ja olenkin oppinut jälleen paljon JavaScript-kehittämisestä projektin aikana. Dynaamisen datan puuttumisen vuoksi antaisin itselleni pisteitä projektista: 8/10 p
 
 ## Palaute opettajalle kurssista sekä itse opetuksesta tähän saakka
 
-Kurssi sekä lähiopetus ovat paikooitellen tuntuneet haastavilta ja kuten mainittua oppiminen on tuntunut välillä todella hitaalta. Projektit ovat olleet kurssin aikana todella antoisia oppimisen kannalta.
+Kurssi on ollut yksi hyödyllisimmistä opintojen aikana ja oppia on tullut paljon. Tosin kurssi on myös ainakin omalta osaltani vaatinut valtavasti panostusta.
 
 ## Sisällysluettelo:
 
@@ -43,53 +38,48 @@ Kurssi sekä lähiopetus ovat paikooitellen tuntuneet haastavilta ja kuten maini
 
 ## Tietoja sovelluksesta
 
-Elokuvaideat on sovellus, joka mahdollistaa käyttäjän hakea ideoita omaan elokuva hetkeen tai iltaan. Sovelluksen avulla pystyy tarkastelemaan suoraan "trendaavia" elokuvia tai etsimään omia suosikkielokuvia hakusanojen avulla.
+Veden kulutuksen seuranta on sovellus, jolla oli tarkoitus mahdollistaa taloyhtiön osakkeiden seurata kiinteistön vedenkulutusta ja jätemääriä. HSY:n API myös mahdollistaa vesimittarilukemien lähettämisen rajapinnan kautta, johon sovellusta oli tarkoitusta laajentaa.
 
 ## Tunnetut virheet/bugit
 
-Sovellus ei sisällä suuria bugeja tai virheitä. Tosin hakutulokset palauttavat vain tulosten ensimmäisen sivun, joten jatkokehitettävää riittäisi ainakin usemman sivun hakemisesta ja selaamisesta. Hakusanan avulla haettaessa olisin halunnut mukaan toiminnallisuuden, käyttäjälle aletaan ehdottamaan avainsanan perusteella, mutta tähän ei tällä kertaa taidot ja aika riittänyt.
+Sovellus ei kutsu ulkoista rajapintaa.
 
 ## Kuvakaappaukset
 
 Lisää tähän vähintään yksi kuvakaappaus toimivasta sovelluksesta  
-`https://laureauas-my.sharepoint.com/:i:/g/personal/kil00006_laurea_fi/IQATwJDUBdYTSp_q40fiIgoJAcwjj6NdDCmpH8cxdx-4xzs?e=2rJlab`
+`https://laureauas-my.sharepoint.com/:i:/g/personal/kil00006_laurea_fi/IQDQ-jHLx9xMTIH2_RJ26eAjAdjPBHvAOS1L1NYNz8XPxx8?e=zodHf8`
 
 ## Teknologiat
 
 Kuvaa, mitä teknologioita käytettiin ja mikä oli niiden rooli projektissasi.  
-Käytin seuraavia teknologioita: `html`, `JavaScript`
-Sovelluksen tyylien muotoiluun käytin Tailwindcss:ää ja Visual Studio Coden "Tailwind" laajennusta. En ladannut erillisiä Tailwind-kirjastoja vaan tyylit haettiin Tailwindin CDN:n kautta, joka toimii mielestäni näin pienissä tehtävissä.
-JavaScript eritytettiin omaan tiedostoon.
-API-kutsujen validointiin käytin Postman-ohjelmistoa.
+Käytin seuraavia teknologioita: `html`, `JavaScript` ja `jQuery`käyttöliittymäkirjastoa. Lisäksi käytin tyylien muotoiluun Tailwindcss ulkoista kirjastoa. Valmiita elementtejä hain myös DataTables ja chart.js ulkoisista kirjastoista. Pääsääntöisesti käytin ulkoisia kirjastoja CDN:n kautta minkä katsoin soveltuvaksi näin pienessä projektissa. API-kutsujen validointiin ja testidatan noutamiseen käytin Postman-ohjelmistoa.
 
 ## Asennus
 
 Kirjoita lyhyet ohjeet sovelluksen käynnistämiseen ja käyttöön. Esimerkiksi:
 
 - lataa kaikki tiedostot ja avaa index.html selaimessasi
-- sovelluksen julkinen repositorio: https://github.com/kimmolehtimaki/JS-projekti-2-AJAX.git
+- sovelluksen julkinen repositorio: https://github.com/kimmolehtimaki/JS-projekti-3-jQuery.git
 
 ## Kiitokset
 
-Käytin projektin työstämiseen netistä löytyviä tutoraaleja, jotka listattu alla. ChatGPT:tä käytin koodauksen aikana muutaman kerran isompien ongelmien kohdalla, joihin en löytänyt muualta ratkaisua. Debuggaus taidoissani huomasin parantamisen varaa, jolloin eteenpäin pääsemiseksi turvauduin tekoälyyn. 
+Käytin projektin työstämiseen netistä löytyviä tutoraaleja, jotka listattu alla. ChatGPT:tä jouduin käyttämään aika paljon testi-JSON datan parsimiseen ja esittämiseen ratkaisun löytämiseksi. Löysin muutaman hyvän tutoriaalin ja koulutuspaketin joihin oli helppo turvautua kehittämisen aikana. Nämä listattuna aal
 
 - [Joe Marini] - jQuery Essential Training (https://www.linkedin.com/learning/jquery-essential-training-24696205/jquery-write-less-do-more)
+- [Digital Fox] - Create Dynamic Charts with JSON, JavaScript and Chart.js (https://www.youtube.com/watch?v=XPOSEf40SkQ)
+- [Polston,Vince] - Chart JS Crash Course for Beginners | ChartJS Tutorial (https://www.youtube.com/watch?v=yD3kXXJTqsc)
+- [ChartJS] - How to Connect DataTables With Chart.js 4 (https://www.youtube.com/watch?v=6zSgYVqGo24)
+- [DataTables] - Documentation (https://datatables.net/)
+-  [Tov & Tatti Code] - How to setup jQuery datatables (https://www.youtube.com/watch?v=vFzw9fnqid0)
+- [jQuery] - Documentation (https://jquery.com/)
 
-
-- [Web Dev Simplified](https://www.youtube.com/watch?v=XF1_MlZ5l6M)
-- [freeCodeCamp.org](https://www.youtube.com/watch?v=5fb2aPlgoys)
-- [Mika Stenberg](https://mika-stenberg.gitbook.io/web-sovelluksia-javascriptin-avulla) , lisäksi Laurea Canvaksen materiaali
-- [mimo.org] (mimo.org) Javascript ja Front-End developer -moduulit
-- [Andy's Tech Tutorials] - The Movie Database API Tutorial | For Beginners (https://www.youtube.com/watch?v=FlFyrOEz2S4)
 
 Tailwind-muotoilun apuna käytin seuraavia tutorialeja, enimmäkseen Youtubesta:
     - [Tailwindcss] - Documentation (https://tailwindcss.com/docs/installation/play-cdn)
     - https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/input/radio
-    - [AyyazTech] - How to create dropdown in tailwind CSS(https://www.youtube.com/watch?v=h-vhYwFlgSk)
-    - [Lavarian,Laza] - Convert a dd/mm/yy string to Date objec in Javascript
     - [Helalee,Muslim] - Tailwind CSS for Devs in Hurry (https://www.youtube.com/watch?v=0JN_Bk8QuWY)
 
-- ChatGpt: etsin apua API-kutsun lähettämättömyyden virheen paikantamisessa sekä API-avaimen piilottamiseen Githubissa.
+- ChatGpt: etsin apua JSON datan parsimiseen ja esittämiseen sovelluksen taulukossa.
     
 
 ## Lisenssi

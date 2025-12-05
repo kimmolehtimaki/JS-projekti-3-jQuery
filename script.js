@@ -93,26 +93,17 @@ function fetchData() {
 }); // click end
 }
 
-// new DataTable("#dataTable");
-
-// function extractTableData(labels, data) {
-//     const table = document.getElementById("dataTable");
-//     const dataRows = table.getElementsByTagName("tbody")[0].
-//     getElementsByTagName('tr');
-
-//     console.log(dataRows);
-
-// }
-
-
-
-
+// Määritetään muuttuja taulukko-elementille
 const ctx = document.getElementById('data-chart').getContext('2d');
+
+// jQuery kuuntelija
 $("#createChart").on("click", function() {
     drawChart();
 });
+
+// Taulukon piirtämisen funktio
 function drawChart() {
-// Oletus: table = DataTable-instanssi
+// Käytetään DataTable-instanssia taulukon datan hakemiseen
 const tableData = table.rows({ search: 'applied' }).data().toArray();
 
 // labels = Vuodet (sarakkeen 0 arvo)
@@ -120,7 +111,9 @@ const labels = tableData.map(r => r[0]);
 
 // data = Kulutus (sarakkeen 1 arvo numeroksi muunnettuna)
 const values = tableData.map(r => parseFloat(String(r[1]).replace(",", ".")) || 0);
-  new Chart(ctx, {
+  
+// Määritetään uusi kaavio
+new Chart(ctx, {
     type: 'line',
     data: {
       labels: labels,
@@ -136,7 +129,7 @@ const values = tableData.map(r => parseFloat(String(r[1]).replace(",", ".")) || 
           beginAtZero: true
         }
       },
-    maintainAspectRatio: false
+    maintainAspectRatio: false //estetään kaavion responsiivisuudesta johtuva rikkoutuminen
     }
   });
 }

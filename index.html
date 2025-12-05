@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vedenkulutus</title>
-    <!-- <link rel="stylesheet" href="styles.css"> -->
     <link href="DataTables/datatables.min.css" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
@@ -36,12 +35,12 @@
             class="border-solid border-gray-400 border-2 justify-between hover:border-amber-400 w-64">
             <option value="" disabled selected>Valitse laskutettava aihe</option>
             <option value="water">Vesimaksut</option>
-            <option value="waste">Jätemaksut</option>
+            <option value="waste" disabled>Jätemaksut</option>
             </select>       
         </div>
     
     <!-- Radioryhmä: kk / vuosi -->
-    <div id="search" class="border-2 border-gray-400 hover:border-amber-400 flex items-center gap-4 p-3 rounded-md">
+    <div class="border-2 border-gray-400 hover:border-amber-400 flex items-center gap-4 p-3 rounded-md">
 
   <!-- Radioryhmä -->
   <fieldset id="time" class="flex items-center gap-6" role="radiogroup" aria-label="Aikajakso">
@@ -60,15 +59,15 @@
 
   </div>
   <button id="fetchBtn"
-    class="bg-blue-700 hover:bg-blue-900 text-white font-bold py-2 px-4 rounded">
+    class="w-24 bg-blue-700 hover:bg-blue-900 text-white font-bold py-1 px-2 rounded">
     Hae
   </button>
 </div>
 </main>
 
-<div id="content" class="m-3">
-    <p id="ajaxContent" class="p-2 border-2 border-dashed border-gray-300"></p>
-    <table id="dataTable" class="display">
+<div id="content" class="m-4 p-6">
+    <!-- <p id="ajaxContent" class="p-2 border-2 border-dashed border-gray-300"></p> -->
+    <table id="dataTable" class="display m-4 p-6">
         <thead>
             <tr>
                 <th>Vuosi</th>
@@ -81,15 +80,11 @@
 </div>
 <div class="p-3">
 <button id="createChart"
-    class="bg-blue-700 hover:bg-blue-900 text-white font-bold p-3 px-4 rounded">Luo kaavio</button>
+    class="bg-blue-700 hover:bg-blue-900 text-white font-bold p-2 px-3 rounded">Luo kaavio</button>
 </div>
     <div class="flex justify-center items-center">
-    <canvas id="data-chart" class="bg-white p-5 max-w-3xl">
-
-    </canvas>
+    <canvas id="data-chart" class="bg-white p-5 max-w-3xl"></canvas>
 </div>
-
-
   <footer class="flex flex-col bg-gray-300 text-gray-600 m-3 p-4 mt-auto text-center">Sivusto käyttää HSY:n eRaportti tilastorajapintaa</footer>
 <script src="script.js"></script>
 </body>
