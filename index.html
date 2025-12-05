@@ -4,8 +4,82 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vesikulutus</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+    <script src="script.js"></script>
+    <!-- <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet"> -->
 </head>
 <body>
+    <header class="flex items-center justify-between px-6 pt-7 pb-3">
+    <div>
+      <h1 class="m-0 text-[24px] font-semibold tracking-[-0.02em]">Asunto-osakeyhtiö Esimerkkitie 123</h1>
+      <p class="text-[12px] text-muted mt-1">Monitoroi vedenkulutusta ja laskutustietoja</p>
+    </div>
+      <img src="water-drops.svg" alt="Vesipisara" class= "w-8 h-8 opacity-80"/>
     
+  </header>
+
+  <main class="container">
+    <!-- Filtteröinti -->
+    <section class="filters card">
+      <div class="filter">
+        <label for="year">Vuosi</label>
+        <input id="year" type="text" placeholder="2025" />
+      </div>
+    </section>
+
+    <!-- Valinta-container -->
+  <div class="flex justify-around">
+    <!-- Valinta laskutettavan aiheen mukaan-->
+        <div id="dropdown-box" class="flex">
+            <select 
+            name="mySelect" 
+            id="category" 
+            class="border-solid border-gray-400 border-2 justify-between hover:border-amber-400 w-64"
+            onchange="fetchTrending()">
+            <option value="" disabled selected>Valitse laskutettava aihe</option>
+            <option value="day">Vesimaksut</option>
+            <option value="week">Jätemaksut</option>
+            </select>       
+        </div>
+    
+    <!-- Radioryhmä: kk / vuosi -->
+    <div id="search" class="border-2 border-gray-400 hover:border-amber-400 flex items-center gap-4 p-3 rounded-md">
+
+  <!-- Radioryhmä -->
+  <fieldset class="flex items-center gap-6" role="radiogroup" aria-label="Aikajakso">
+    
+    <label class="inline-flex items-center gap-2 cursor-pointer">
+      <input type="radio" name="viewRange" value="month" class="h-4 w-4 text-blue-700" checked>
+      <span>Kuukausi</span>
+    </label>
+
+    <label class="inline-flex items-center gap-2 cursor-pointer">
+      <input type="radio" name="viewRange" value="year" class="h-4 w-4 text-blue-700">
+      <span>Vuosi</span>
+    </label>
+
+  </fieldset>
+
+  <button id="searchBtn"
+    class="bg-blue-700 hover:bg-blue-900 text-white font-bold py-2 px-4 rounded"
+    onclick="fetchKeyword()">
+    Hae kulutustiedot
+  </button>
+</div>
+</div>
+
+<div id="content">
+    <p id="ajaxContent" class="p-2 border-2 border-dashed border-gray-300"></p>
+</div>
+
+    
+  </main>
+
+  <footer class="footer">Sivusto käyttää HSY:n eRaportti tilastorajapintaa</footer>
 </body>
 </html>
