@@ -84,7 +84,7 @@ Käytin projektin työstämiseen netistä löytyviä tutoraaleja, jotka listattu
 
 Tailwind-muotoilun apuna käytin seuraavia tutorialeja, enimmäkseen Youtubesta:
     - [Tailwindcss] - Documentation (https://tailwindcss.com/docs/installation/play-cdn)
-    - [Tyler_Potts] - Tailwind CSS for Beginners: Build Websites Faster(https://www.youtube.com/watch?v=dcRenJApot0)
+    - https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/input/radio
     - [AyyazTech] - How to create dropdown in tailwind CSS(https://www.youtube.com/watch?v=h-vhYwFlgSk)
     - [Lavarian,Laza] - Convert a dd/mm/yy string to Date objec in Javascript
     - [Helalee,Muslim] - Tailwind CSS for Devs in Hurry (https://www.youtube.com/watch?v=0JN_Bk8QuWY)

@@ -29,10 +29,18 @@
 // });
 // })
 
-$(function () {
-    // jQuery -kuuntelija buttonille
-    $("#fetchBtn").on("click", function () {
+let table = null;
 
+$(function () {
+    // alustetaan DataTable
+    table = $("#dataTable").DataTable();  
+    // jQuery-kuuntelija buttonille
+    $("#fetchBtn").on("click", fetchData);
+});
+
+
+function fetchData() {
+    
         var categoryType = $("#category").val();
         var timePeriod = $('input[name="time"]:checked').val();
         
@@ -48,15 +56,15 @@ $(function () {
 
     $.getJSON(url, function (data) {
 
-             var $out = $("#content").empty();
-
-            // käydään momentit läpi
+        //tyhjennetään taulukko ennen haetun datan lisäystä
+        table.clear();
+            // käydään "momentit" läpi
             data.moments.forEach(function (m) {
 
                 // käydään asiakkaat läpi
                 m.customers.forEach(function (c) {
 
-                    // Etsitään kulutusobjekti
+                    // Etsitään kulutusrivi
                     var consumption = null;
                     for (let i = 0; i < c.water.length; i++) {
                         let w = c.water[i];
@@ -70,14 +78,65 @@ $(function () {
                     var amount = (consumption && consumption.amount) ? consumption.amount : "-";
                     var unit   = (consumption && consumption.amountUnit) ? consumption.amountUnit : "";
 
-                    // tulostus
-                    $out.append(
-                        "<p>Vuosi <strong>" + m.moment + "</strong>: " + amount + " " + unit + "</p>"
-                    );
-
-                });
+                    // Lisätään data taulukkoon
+                    table.row.add([
+                    m.moment,
+                    amount,
+                    unit
+                ]);
             });
-      }); // getJSON end
+        });
+    
+    //päivitetään taulukko
+    table.draw();
 
-    }); // click end
+}); // click end
+}
+
+// new DataTable("#dataTable");
+
+// function extractTableData(labels, data) {
+//     const table = document.getElementById("dataTable");
+//     const dataRows = table.getElementsByTagName("tbody")[0].
+//     getElementsByTagName('tr');
+
+//     console.log(dataRows);
+
+// }
+
+
+
+
+const ctx = document.getElementById('data-chart').getContext('2d');
+$("#createChart").on("click", function() {
+    drawChart();
 });
+function drawChart() {
+// Oletus: table = DataTable-instanssi
+const tableData = table.rows({ search: 'applied' }).data().toArray();
+
+// labels = Vuodet (sarakkeen 0 arvo)
+const labels = tableData.map(r => r[0]);
+
+// data = Kulutus (sarakkeen 1 arvo numeroksi muunnettuna)
+const values = tableData.map(r => parseFloat(String(r[1]).replace(",", ".")) || 0);
+  new Chart(ctx, {
+    type: 'line',
+    data: {
+      labels: labels,
+      datasets: [{
+        label: 'Vedenkulutus (m³)',
+        data: values,
+        borderWidth: 2
+      }]
+    },
+    options: {
+      scales: {
+        y: {
+          beginAtZero: true
+        }
+      },
+    maintainAspectRatio: false
+    }
+  });
+}
