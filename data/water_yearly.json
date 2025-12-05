@@ -1,0 +1,117 @@
+{
+    "messages": [
+        "MOCK DATA"
+    ],
+    "moments": [
+        {
+            "moment": "2021",
+            "customers": [
+                {
+                    "address": "Mocktie 1 (WT-MOCK-WATER-ID / -)",
+                    "wasteContractNumber": null,
+                    "waterUsageLocationNumber": "WT-MOCK-WATER-ID",
+                    "waterUsageLocationAddress": "Mocktie 1",
+                    "wasteCollectionAddress": null,
+                    "waste": [],
+                    "water": [
+                        {
+                            "type": "Vuosittaiset vesikustannukset (alv 0%).",
+                            "amount": null,
+                            "cost": "4012",
+                            "amountUnit": null,
+                            "costUnit": "EUR"
+                        },
+                        {
+                            "type": "Vedenkulutus vuosittain (*=arvio)",
+                            "amount": "1350",
+                            "cost": null,
+                            "amountUnit": "m³",
+                            "costUnit": "EUR"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "moment": "2022",
+            "customers": [
+                {
+                    "address": "Mocktie 1 (WT-MOCK-WATER-ID / -)",
+                    "wasteContractNumber": null,
+                    "waterUsageLocationNumber": "WT-MOCK-WATER-ID",
+                    "waterUsageLocationAddress": "Mocktie 1",
+                    "wasteCollectionAddress": null,
+                    "waste": [],
+                    "water": [
+                        {
+                            "type": "Vuosittaiset vesikustannukset (alv 0%).",
+                            "amount": null,
+                            "cost": "3866",
+                            "amountUnit": null,
+                            "costUnit": "EUR"
+                        },
+                        {
+                            "type": "Vedenkulutus vuosittain (*=arvio)",
+                            "amount": "1244",
+                            "cost": null,
+                            "amountUnit": "m³",
+                            "costUnit": "EUR"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "moment": "2023",
+            "customers": [
+                {
+                    "address": "Mocktie 1 (WT-MOCK-WATER-ID / -)",
+                    "wasteContractNumber": null,
+                    "waterUsageLocationNumber": "WT-MOCK-WATER-ID",
+                    "waterUsageLocationAddress": "Mocktie 1",
+                    "wasteCollectionAddress": null,
+                    "waste": [],
+                    "water": [
+                        {
+                            "type": "Vuosittaiset vesikustannukset (alv 0%).",
+                            "amount": null,
+                            "cost": "3912",
+                            "amountUnit": null,
+                            "costUnit": "EUR"
+                        },
+                        {
+                            "type": "Vedenkulutus vuosittain (*=arvio)",
+                            "amount": "1095",
+                            "cost": null,
+                            "amountUnit": "m³",
+                            "costUnit": "EUR"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "moment": "2024",
+            "customers": [
+                {
+                    "address": "Mocktie 1 (WT-MOCK-WATER-ID / -)",
+                    "wasteContractNumber": null,
+                    "waterUsageLocationNumber": "WT-MOCK-WATER-ID",
+                    "waterUsageLocationAddress": "Mocktie 1",
+                    "wasteCollectionAddress": null,
+                    "waste": [],
+                    "water": [
+                        {
+                            "type": "Vedenkulutus vuosittain (*=arvio)",
+                            "amount": "1098",
+                            "cost": null,
+                            "amountUnit": "m³",
+                            "costUnit": "EUR"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "success": true
+}

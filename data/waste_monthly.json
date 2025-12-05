@@ -1,0 +1,1428 @@
+{
+    "messages": [
+        "MOCK DATA"
+    ],
+    "moments": [
+        {
+            "moment": "2021-01",
+            "customers": [
+                {
+                    "address": "Mocktie 1 (- / WS-MOCK-WASTE-ID)",
+                    "wasteContractNumber": "WS-MOCK-WASTE-ID",
+                    "waterUsageLocationNumber": null,
+                    "waterUsageLocationAddress": null,
+                    "wasteCollectionAddress": "Mocktie 1",
+                    "waste": [
+                        {
+                            "type": "Biojäte",
+                            "amount": "240",
+                            "cost": "82",
+                            "amountUnit": "Kg",
+                            "costUnit": "EUR"
+                        },
+                        {
+                            "type": "Sekajäte",
+                            "amount": "288",
+                            "cost": "103",
+                            "amountUnit": "Kg",
+                            "costUnit": "EUR"
+                        }
+                    ],
+                    "water": []
+                }
+            ]
+        },
+        {
+            "moment": "2021-02",
+            "customers": [
+                {
+                    "address": "Mocktie 1 (- / WS-MOCK-WASTE-ID)",
+                    "wasteContractNumber": "WS-MOCK-WASTE-ID",
+                    "waterUsageLocationNumber": null,
+                    "waterUsageLocationAddress": null,
+                    "wasteCollectionAddress": "Mocktie 1",
+                    "waste": [
+                        {
+                            "type": "Biojäte",
+                            "amount": "192",
+                            "cost": "65",
+                            "amountUnit": "Kg",
+                            "costUnit": "EUR"
+                        },
+                        {
+                            "type": "Sekajäte",
+                            "amount": "288",
+                            "cost": "103",
+                            "amountUnit": "Kg",
+                            "costUnit": "EUR"
+                        }
+                    ],
+                    "water": []
+                }
+            ]
+        },
+        {
+            "moment": "2021-03",
+            "customers": [
+                {
+                    "address": "Mocktie 1 (- / WS-MOCK-WASTE-ID)",
+                    "wasteContractNumber": "WS-MOCK-WASTE-ID",
+                    "waterUsageLocationNumber": null,
+                    "waterUsageLocationAddress": null,
+                    "wasteCollectionAddress": "Mocktie 1",
+                    "waste": [
+                        {
+                            "type": "Biojäte",
+                            "amount": "192",
+                            "cost": "65",
+                            "amountUnit": "Kg",
+                            "costUnit": "EUR"
+                        },
+                        {
+                            "type": "Sekajäte",
+                            "amount": "360",
+                            "cost": "129",
+                            "amountUnit": "Kg",
+                            "costUnit": "EUR"
+                        }
+                    ],
+                    "water": []
+                }
+            ]
+        },
+        {
+            "moment": "2021-04",
+            "customers": [
+                {
+                    "address": "Mocktie 1 (- / WS-MOCK-WASTE-ID)",
+                    "wasteContractNumber": "WS-MOCK-WASTE-ID",
+                    "waterUsageLocationNumber": null,
+                    "waterUsageLocationAddress": null,
+                    "wasteCollectionAddress": "Mocktie 1",
+                    "waste": [
+                        {
+                            "type": "Biojäte",
+                            "amount": "240",
+                            "cost": "82",
+                            "amountUnit": "Kg",
+                            "costUnit": "EUR"
+                        },
+                        {
+                            "type": "Sekajäte",
+                            "amount": "288",
+                            "cost": "103",
+                            "amountUnit": "Kg",
+                            "costUnit": "EUR"
+                        }
+                    ],
+                    "water": []
+                }
+            ]
+        },
+        {
+            "moment": "2021-05",
+            "customers": [
+                {
+                    "address": "Mocktie 1 (- / WS-MOCK-WASTE-ID)",
+                    "wasteContractNumber": "WS-MOCK-WASTE-ID",
+                    "waterUsageLocationNumber": null,
+                    "waterUsageLocationAddress": null,
+                    "wasteCollectionAddress": "Mocktie 1",
+                    "waste": [
+                        {
+                            "type": "Biojäte",
+                            "amount": "192",
+                            "cost": "65",
+                            "amountUnit": "Kg",
+                            "costUnit": "EUR"
+                        },
+                        {
+                            "type": "Sekajäte",
+                            "amount": "252",
+                            "cost": "91",
+                            "amountUnit": "Kg",
+                            "costUnit": "EUR"
+                        },
+                        {
+                            "type": "Muovi",
+                            "amount": "51",
+                            "cost": "22",
+                            "amountUnit": "Kg",
+                            "costUnit": "EUR"
+                        }
+                    ],
+                    "water": []
+                }
+            ]
+        },
+        {
+            "moment": "2021-06",
+            "customers": [
+                {
+                    "address": "Mocktie 1 (- / WS-MOCK-WASTE-ID)",
+                    "wasteContractNumber": "WS-MOCK-WASTE-ID",
+                    "waterUsageLocationNumber": null,
+                    "waterUsageLocationAddress": null,
+                    "wasteCollectionAddress": "Mocktie 1",
+                    "waste": [
+                        {
+                            "type": "Biojäte",
+                            "amount": "192",
+                            "cost": "65",
+                            "amountUnit": "Kg",
+                            "costUnit": "EUR"
+                        },
+                        {
+                            "type": "Sekajäte",
+                            "amount": "360",
+                            "cost": "128",
+                            "amountUnit": "Kg",
+                            "costUnit": "EUR"
+                        },
+                        {
+                            "type": "Muovi",
+                            "amount": "85",
+                            "cost": "36",
+                            "amountUnit": "Kg",
+                            "costUnit": "EUR"
+                        }
+                    ],
+                    "water": []
+                }
+            ]
+        },
+        {
+            "moment": "2021-07",
+            "customers": [
+                {
+                    "address": "Mocktie 1 (- / WS-MOCK-WASTE-ID)",
+                    "wasteContractNumber": "WS-MOCK-WASTE-ID",
+                    "waterUsageLocationNumber": null,
+                    "waterUsageLocationAddress": null,
+                    "wasteCollectionAddress": "Mocktie 1",
+                    "waste": [
+                        {
+                            "type": "Biojäte",
+                            "amount": "240",
+                            "cost": "82",
+                            "amountUnit": "Kg",
+                            "costUnit": "EUR"
+                        },
+                        {
+                            "type": "Sekajäte",
+                            "amount": "288",
+                            "cost": "103",
+                            "amountUnit": "Kg",
+                            "costUnit": "EUR"
+                        },
+                        {
+                            "type": "Muovi",
+                            "amount": "68",
+                            "cost": "29",
+                            "amountUnit": "Kg",
+                            "costUnit": "EUR"
+                        },
+                        {
+                            "type": "Metalli",
+                            "amount": "11",
+                            "cost": "6",
+                            "amountUnit": "Kg",
+                            "costUnit": "EUR"
+                        },
+                        {
+                            "type": "Lasi",
+                            "amount": "15",
+                            "cost": "6",
+                            "amountUnit": "Kg",
+                            "costUnit": "EUR"
+                        }
+                    ],
+                    "water": []
+                }
+            ]
+        },
+        {
+            "moment": "2021-08",
+            "customers": [
+                {
+                    "address": "Mocktie 1 (- / WS-MOCK-WASTE-ID)",
+                    "wasteContractNumber": "WS-MOCK-WASTE-ID",
+                    "waterUsageLocationNumber": null,
+                    "waterUsageLocationAddress": null,
+                    "wasteCollectionAddress": "Mocktie 1",
+                    "waste": [
+                        {
+                            "type": "Biojäte",
+                            "amount": "144",
+                            "cost": "49",
+                            "amountUnit": "Kg",
+                            "costUnit": "EUR"
+                        },
+                        {
+                            "type": "Sekajäte",
+                            "amount": "252",
+                            "cost": "90",
+                            "amountUnit": "Kg",
+                            "costUnit": "EUR"
+                        },
+                        {
+                            "type": "Pakkausjäte",
+                            "amount": null,
+                            "cost": "8",
+                            "amountUnit": null,
+                            "costUnit": "EUR"
+                        },
+                        {
+                            "type": "Muovi",
+                            "amount": "34",
+                            "cost": "15",
+                            "amountUnit": "Kg",
+                            "costUnit": "EUR"
+                        }
+                    ],
+                    "water": []
+                }
+            ]
+        },
+        {
+            "moment": "2021-09",
+            "customers": [
+                {
+                    "address": "Mocktie 1 (- / WS-MOCK-WASTE-ID)",
+                    "wasteContractNumber": "WS-MOCK-WASTE-ID",
+                    "waterUsageLocationNumber": null,
+                    "waterUsageLocationAddress": null,
+                    "wasteCollectionAddress": "Mocktie 1",
+                    "waste": [
+                        {
+                            "type": "Biojäte",
+                            "amount": "96",
+                            "cost": "33",
+                            "amountUnit": "Kg",
+                            "costUnit": "EUR"
+                        },
+                        {
+                            "type": "Sekajäte",
+                            "amount": "144",
+                            "cost": "52",
+                            "amountUnit": "Kg",
+                            "costUnit": "EUR"
+                        },
+                        {
+                            "type": "Pakkausjäte",
+                            "amount": null,
+                            "cost": "15",
+                            "amountUnit": null,
+                            "costUnit": "EUR"
+                        }
+                    ],
+                    "water": []
+                }
+            ]
+        },
+        {
+            "moment": "2021-10",
+            "customers": [
+                {
+                    "address": "Mocktie 1 (- / WS-MOCK-WASTE-ID)",
+                    "wasteContractNumber": "WS-MOCK-WASTE-ID",
+                    "waterUsageLocationNumber": null,
+                    "waterUsageLocationAddress": null,
+                    "wasteCollectionAddress": "Mocktie 1",
+                    "waste": [
+                        {
+                            "type": "Biojäte",
+                            "amount": "120",
+                            "cost": "41",
+                            "amountUnit": "Kg",
+                            "costUnit": "EUR"
+                        },
+                        {
+                            "type": "Sekajäte",
+                            "amount": "144",
+                            "cost": "52",
+                            "amountUnit": "Kg",
+                            "costUnit": "EUR"
+                        },
+                        {
+                            "type": "Pakkausjäte",
+                            "amount": null,
+                            "cost": "15",
+                            "amountUnit": null,
+                            "costUnit": "EUR"
+                        }
+                    ],
+                    "water": []
+                }
+            ]
+        },
+        {
+            "moment": "2021-11",
+            "customers": [
+                {
+                    "address": "Mocktie 1 (- / WS-MOCK-WASTE-ID)",
+                    "wasteContractNumber": "WS-MOCK-WASTE-ID",
+                    "waterUsageLocationNumber": null,
+                    "waterUsageLocationAddress": null,
+                    "wasteCollectionAddress": "Mocktie 1",
+                    "waste": [
+                        {
+                            "type": "Biojäte",
+                            "amount": "96",
+                            "cost": "33",
+                            "amountUnit": "Kg",
+                            "costUnit": "EUR"
+                        },
+                        {
+                            "type": "Sekajäte",
+                            "amount": "180",
+                            "cost": "65",
+                            "amountUnit": "Kg",
+                            "costUnit": "EUR"
+                        },
+                        {
+                            "type": "Pakkausjäte",
+                            "amount": null,
+                            "cost": "23",
+                            "amountUnit": null,
+                            "costUnit": "EUR"
+                        }
+                    ],
+                    "water": []
+                }
+            ]
+        },
+        {
+            "moment": "2021-12",
+            "customers": [
+                {
+                    "address": "Mocktie 1 (- / WS-MOCK-WASTE-ID)",
+                    "wasteContractNumber": "WS-MOCK-WASTE-ID",
+                    "waterUsageLocationNumber": null,
+                    "waterUsageLocationAddress": null,
+                    "wasteCollectionAddress": "Mocktie 1",
+                    "waste": [
+                        {
+                            "type": "Biojäte",
+                            "amount": "120",
+                            "cost": "41",
+                            "amountUnit": "Kg",
+                            "costUnit": "EUR"
+                        },
+                        {
+                            "type": "Sekajäte",
+                            "amount": "144",
+                            "cost": "52",
+                            "amountUnit": "Kg",
+                            "costUnit": "EUR"
+                        },
+                        {
+                            "type": "Pakkausjäte",
+                            "amount": null,
+                            "cost": "38",
+                            "amountUnit": null,
+                            "costUnit": "EUR"
+                        }
+                    ],
+                    "water": []
+                }
+            ]
+        },
+        {
+            "moment": "2022-01",
+            "customers": [
+                {
+                    "address": "Mocktie 1 (- / WS-MOCK-WASTE-ID)",
+                    "wasteContractNumber": "WS-MOCK-WASTE-ID",
+                    "waterUsageLocationNumber": null,
+                    "waterUsageLocationAddress": null,
+                    "wasteCollectionAddress": "Mocktie 1",
+                    "waste": [
+                        {
+                            "type": "Biojäte",
+                            "amount": "96",
+                            "cost": "33",
+                            "amountUnit": "Kg",
+                            "costUnit": "EUR"
+                        },
+                        {
+                            "type": "Sekajäte",
+                            "amount": "144",
+                            "cost": "53",
+                            "amountUnit": "Kg",
+                            "costUnit": "EUR"
+                        },
+                        {
+                            "type": "Pakkausjäte",
+                            "amount": null,
+                            "cost": "31",
+                            "amountUnit": null,
+                            "costUnit": "EUR"
+                        }
+                    ],
+                    "water": []
+                }
+            ]
+        },
+        {
+            "moment": "2022-02",
+            "customers": [
+                {
+                    "address": "Mocktie 1 (- / WS-MOCK-WASTE-ID)",
+                    "wasteContractNumber": "WS-MOCK-WASTE-ID",
+                    "waterUsageLocationNumber": null,
+                    "waterUsageLocationAddress": null,
+                    "wasteCollectionAddress": "Mocktie 1",
+                    "waste": [
+                        {
+                            "type": "Biojäte",
+                            "amount": "96",
+                            "cost": "33",
+                            "amountUnit": "Kg",
+                            "costUnit": "EUR"
+                        },
+                        {
+                            "type": "Sekajäte",
+                            "amount": "144",
+                            "cost": "52",
+                            "amountUnit": "Kg",
+                            "costUnit": "EUR"
+                        },
+                        {
+                            "type": "Pakkausjäte",
+                            "amount": null,
+                            "cost": "31",
+                            "amountUnit": null,
+                            "costUnit": "EUR"
+                        }
+                    ],
+                    "water": []
+                }
+            ]
+        },
+        {
+            "moment": "2022-03",
+            "customers": [
+                {
+                    "address": "Mocktie 1 (- / WS-MOCK-WASTE-ID)",
+                    "wasteContractNumber": "WS-MOCK-WASTE-ID",
+                    "waterUsageLocationNumber": null,
+                    "waterUsageLocationAddress": null,
+                    "wasteCollectionAddress": "Mocktie 1",
+                    "waste": [
+                        {
+                            "type": "Biojäte",
+                            "amount": "96",
+                            "cost": "33",
+                            "amountUnit": "Kg",
+                            "costUnit": "EUR"
+                        },
+                        {
+                            "type": "Sekajäte",
+                            "amount": "180",
+                            "cost": "65",
+                            "amountUnit": "Kg",
+                            "costUnit": "EUR"
+                        },
+                        {
+                            "type": "Pakkausjäte",
+                            "amount": null,
+                            "cost": "39",
+                            "amountUnit": null,
+                            "costUnit": "EUR"
+                        }
+                    ],
+                    "water": []
+                }
+            ]
+        },
+        {
+            "moment": "2022-04",
+            "customers": [
+                {
+                    "address": "Mocktie 1 (- / WS-MOCK-WASTE-ID)",
+                    "wasteContractNumber": "WS-MOCK-WASTE-ID",
+                    "waterUsageLocationNumber": null,
+                    "waterUsageLocationAddress": null,
+                    "wasteCollectionAddress": "Mocktie 1",
+                    "waste": [
+                        {
+                            "type": "Biojäte",
+                            "amount": "120",
+                            "cost": "41",
+                            "amountUnit": "Kg",
+                            "costUnit": "EUR"
+                        },
+                        {
+                            "type": "Sekajäte",
+                            "amount": "144",
+                            "cost": "52",
+                            "amountUnit": "Kg",
+                            "costUnit": "EUR"
+                        },
+                        {
+                            "type": "Pakkausjäte",
+                            "amount": null,
+                            "cost": "31",
+                            "amountUnit": null,
+                            "costUnit": "EUR"
+                        }
+                    ],
+                    "water": []
+                }
+            ]
+        },
+        {
+            "moment": "2022-05",
+            "customers": [
+                {
+                    "address": "Mocktie 1 (- / WS-MOCK-WASTE-ID)",
+                    "wasteContractNumber": "WS-MOCK-WASTE-ID",
+                    "waterUsageLocationNumber": null,
+                    "waterUsageLocationAddress": null,
+                    "wasteCollectionAddress": "Mocktie 1",
+                    "waste": [
+                        {
+                            "type": "Biojäte",
+                            "amount": "96",
+                            "cost": "33",
+                            "amountUnit": "Kg",
+                            "costUnit": "EUR"
+                        },
+                        {
+                            "type": "Sekajäte",
+                            "amount": "180",
+                            "cost": "65",
+                            "amountUnit": "Kg",
+                            "costUnit": "EUR"
+                        },
+                        {
+                            "type": "Pakkausjäte",
+                            "amount": null,
+                            "cost": "31",
+                            "amountUnit": null,
+                            "costUnit": "EUR"
+                        }
+                    ],
+                    "water": []
+                }
+            ]
+        },
+        {
+            "moment": "2022-06",
+            "customers": [
+                {
+                    "address": "Mocktie 1 (- / WS-MOCK-WASTE-ID)",
+                    "wasteContractNumber": "WS-MOCK-WASTE-ID",
+                    "waterUsageLocationNumber": null,
+                    "waterUsageLocationAddress": null,
+                    "wasteCollectionAddress": "Mocktie 1",
+                    "waste": [
+                        {
+                            "type": "Biojäte",
+                            "amount": "96",
+                            "cost": "33",
+                            "amountUnit": "Kg",
+                            "costUnit": "EUR"
+                        },
+                        {
+                            "type": "Sekajäte",
+                            "amount": "144",
+                            "cost": "52",
+                            "amountUnit": "Kg",
+                            "costUnit": "EUR"
+                        },
+                        {
+                            "type": "Pakkausjäte",
+                            "amount": null,
+                            "cost": "39",
+                            "amountUnit": null,
+                            "costUnit": "EUR"
+                        }
+                    ],
+                    "water": []
+                }
+            ]
+        },
+        {
+            "moment": "2022-07",
+            "customers": [
+                {
+                    "address": "Mocktie 1 (- / WS-MOCK-WASTE-ID)",
+                    "wasteContractNumber": "WS-MOCK-WASTE-ID",
+                    "waterUsageLocationNumber": null,
+                    "waterUsageLocationAddress": null,
+                    "wasteCollectionAddress": "Mocktie 1",
+                    "waste": [
+                        {
+                            "type": "Biojäte",
+                            "amount": "120",
+                            "cost": "41",
+                            "amountUnit": "Kg",
+                            "costUnit": "EUR"
+                        },
+                        {
+                            "type": "Sekajäte",
+                            "amount": "144",
+                            "cost": "52",
+                            "amountUnit": "Kg",
+                            "costUnit": "EUR"
+                        },
+                        {
+                            "type": "Pakkausjäte",
+                            "amount": null,
+                            "cost": "31",
+                            "amountUnit": null,
+                            "costUnit": "EUR"
+                        }
+                    ],
+                    "water": []
+                }
+            ]
+        },
+        {
+            "moment": "2022-08",
+            "customers": [
+                {
+                    "address": "Mocktie 1 (- / WS-MOCK-WASTE-ID)",
+                    "wasteContractNumber": "WS-MOCK-WASTE-ID",
+                    "waterUsageLocationNumber": null,
+                    "waterUsageLocationAddress": null,
+                    "wasteCollectionAddress": "Mocktie 1",
+                    "waste": [
+                        {
+                            "type": "Biojäte",
+                            "amount": "96",
+                            "cost": "33",
+                            "amountUnit": "Kg",
+                            "costUnit": "EUR"
+                        },
+                        {
+                            "type": "Sekajäte",
+                            "amount": "180",
+                            "cost": "65",
+                            "amountUnit": "Kg",
+                            "costUnit": "EUR"
+                        },
+                        {
+                            "type": "Pakkausjäte",
+                            "amount": null,
+                            "cost": "31",
+                            "amountUnit": null,
+                            "costUnit": "EUR"
+                        }
+                    ],
+                    "water": []
+                }
+            ]
+        },
+        {
+            "moment": "2022-09",
+            "customers": [
+                {
+                    "address": "Mocktie 1 (- / WS-MOCK-WASTE-ID)",
+                    "wasteContractNumber": "WS-MOCK-WASTE-ID",
+                    "waterUsageLocationNumber": null,
+                    "waterUsageLocationAddress": null,
+                    "wasteCollectionAddress": "Mocktie 1",
+                    "waste": [
+                        {
+                            "type": "Biojäte",
+                            "amount": "120",
+                            "cost": "41",
+                            "amountUnit": "Kg",
+                            "costUnit": "EUR"
+                        },
+                        {
+                            "type": "Sekajäte",
+                            "amount": "144",
+                            "cost": "52",
+                            "amountUnit": "Kg",
+                            "costUnit": "EUR"
+                        },
+                        {
+                            "type": "Pakkausjäte",
+                            "amount": null,
+                            "cost": "39",
+                            "amountUnit": null,
+                            "costUnit": "EUR"
+                        }
+                    ],
+                    "water": []
+                }
+            ]
+        },
+        {
+            "moment": "2022-10",
+            "customers": [
+                {
+                    "address": "Mocktie 1 (- / WS-MOCK-WASTE-ID)",
+                    "wasteContractNumber": "WS-MOCK-WASTE-ID",
+                    "waterUsageLocationNumber": null,
+                    "waterUsageLocationAddress": null,
+                    "wasteCollectionAddress": "Mocktie 1",
+                    "waste": [
+                        {
+                            "type": "Biojäte",
+                            "amount": "96",
+                            "cost": "33",
+                            "amountUnit": "Kg",
+                            "costUnit": "EUR"
+                        },
+                        {
+                            "type": "Sekajäte",
+                            "amount": "144",
+                            "cost": "53",
+                            "amountUnit": "Kg",
+                            "costUnit": "EUR"
+                        },
+                        {
+                            "type": "Pakkausjäte",
+                            "amount": null,
+                            "cost": "31",
+                            "amountUnit": null,
+                            "costUnit": "EUR"
+                        }
+                    ],
+                    "water": []
+                }
+            ]
+        },
+        {
+            "moment": "2022-11",
+            "customers": [
+                {
+                    "address": "Mocktie 1 (- / WS-MOCK-WASTE-ID)",
+                    "wasteContractNumber": "WS-MOCK-WASTE-ID",
+                    "waterUsageLocationNumber": null,
+                    "waterUsageLocationAddress": null,
+                    "wasteCollectionAddress": "Mocktie 1",
+                    "waste": [
+                        {
+                            "type": "Biojäte",
+                            "amount": "96",
+                            "cost": "33",
+                            "amountUnit": "Kg",
+                            "costUnit": "EUR"
+                        },
+                        {
+                            "type": "Sekajäte",
+                            "amount": "180",
+                            "cost": "65",
+                            "amountUnit": "Kg",
+                            "costUnit": "EUR"
+                        },
+                        {
+                            "type": "Pakkausjäte",
+                            "amount": null,
+                            "cost": "31",
+                            "amountUnit": null,
+                            "costUnit": "EUR"
+                        }
+                    ],
+                    "water": []
+                }
+            ]
+        },
+        {
+            "moment": "2022-12",
+            "customers": [
+                {
+                    "address": "Mocktie 1 (- / WS-MOCK-WASTE-ID)",
+                    "wasteContractNumber": "WS-MOCK-WASTE-ID",
+                    "waterUsageLocationNumber": null,
+                    "waterUsageLocationAddress": null,
+                    "wasteCollectionAddress": "Mocktie 1",
+                    "waste": [
+                        {
+                            "type": "Biojäte",
+                            "amount": "120",
+                            "cost": "41",
+                            "amountUnit": "Kg",
+                            "costUnit": "EUR"
+                        },
+                        {
+                            "type": "Sekajäte",
+                            "amount": "144",
+                            "cost": "52",
+                            "amountUnit": "Kg",
+                            "costUnit": "EUR"
+                        },
+                        {
+                            "type": "Pakkausjäte",
+                            "amount": null,
+                            "cost": "39",
+                            "amountUnit": null,
+                            "costUnit": "EUR"
+                        }
+                    ],
+                    "water": []
+                }
+            ]
+        },
+        {
+            "moment": "2023-01",
+            "customers": [
+                {
+                    "address": "Mocktie 1 (- / WS-MOCK-WASTE-ID)",
+                    "wasteContractNumber": "WS-MOCK-WASTE-ID",
+                    "waterUsageLocationNumber": null,
+                    "waterUsageLocationAddress": null,
+                    "wasteCollectionAddress": "Mocktie 1",
+                    "waste": [
+                        {
+                            "type": "Biojäte",
+                            "amount": "96",
+                            "cost": "34",
+                            "amountUnit": "Kg",
+                            "costUnit": "EUR"
+                        },
+                        {
+                            "type": "Sekajäte",
+                            "amount": "180",
+                            "cost": "69",
+                            "amountUnit": "Kg",
+                            "costUnit": "EUR"
+                        },
+                        {
+                            "type": "Pakkausjäte",
+                            "amount": null,
+                            "cost": "32",
+                            "amountUnit": null,
+                            "costUnit": "EUR"
+                        }
+                    ],
+                    "water": []
+                }
+            ]
+        },
+        {
+            "moment": "2023-02",
+            "customers": [
+                {
+                    "address": "Mocktie 1 (- / WS-MOCK-WASTE-ID)",
+                    "wasteContractNumber": "WS-MOCK-WASTE-ID",
+                    "waterUsageLocationNumber": null,
+                    "waterUsageLocationAddress": null,
+                    "wasteCollectionAddress": "Mocktie 1",
+                    "waste": [
+                        {
+                            "type": "Biojäte",
+                            "amount": "96",
+                            "cost": "34",
+                            "amountUnit": "Kg",
+                            "costUnit": "EUR"
+                        },
+                        {
+                            "type": "Sekajäte",
+                            "amount": "144",
+                            "cost": "55",
+                            "amountUnit": "Kg",
+                            "costUnit": "EUR"
+                        },
+                        {
+                            "type": "Pakkausjäte",
+                            "amount": null,
+                            "cost": "32",
+                            "amountUnit": null,
+                            "costUnit": "EUR"
+                        }
+                    ],
+                    "water": []
+                }
+            ]
+        },
+        {
+            "moment": "2023-03",
+            "customers": [
+                {
+                    "address": "Mocktie 1 (- / WS-MOCK-WASTE-ID)",
+                    "wasteContractNumber": "WS-MOCK-WASTE-ID",
+                    "waterUsageLocationNumber": null,
+                    "waterUsageLocationAddress": null,
+                    "wasteCollectionAddress": "Mocktie 1",
+                    "waste": [
+                        {
+                            "type": "Biojäte",
+                            "amount": "120",
+                            "cost": "43",
+                            "amountUnit": "Kg",
+                            "costUnit": "EUR"
+                        },
+                        {
+                            "type": "Sekajäte",
+                            "amount": "144",
+                            "cost": "55",
+                            "amountUnit": "Kg",
+                            "costUnit": "EUR"
+                        },
+                        {
+                            "type": "Pakkausjäte",
+                            "amount": null,
+                            "cost": "40",
+                            "amountUnit": null,
+                            "costUnit": "EUR"
+                        }
+                    ],
+                    "water": []
+                }
+            ]
+        },
+        {
+            "moment": "2023-04",
+            "customers": [
+                {
+                    "address": "Mocktie 1 (- / WS-MOCK-WASTE-ID)",
+                    "wasteContractNumber": "WS-MOCK-WASTE-ID",
+                    "waterUsageLocationNumber": null,
+                    "waterUsageLocationAddress": null,
+                    "wasteCollectionAddress": "Mocktie 1",
+                    "waste": [
+                        {
+                            "type": "Biojäte",
+                            "amount": "96",
+                            "cost": "34",
+                            "amountUnit": "Kg",
+                            "costUnit": "EUR"
+                        },
+                        {
+                            "type": "Sekajäte",
+                            "amount": "144",
+                            "cost": "55",
+                            "amountUnit": "Kg",
+                            "costUnit": "EUR"
+                        },
+                        {
+                            "type": "Pakkausjäte",
+                            "amount": null,
+                            "cost": "32",
+                            "amountUnit": null,
+                            "costUnit": "EUR"
+                        }
+                    ],
+                    "water": []
+                }
+            ]
+        },
+        {
+            "moment": "2023-05",
+            "customers": [
+                {
+                    "address": "Mocktie 1 (- / WS-MOCK-WASTE-ID)",
+                    "wasteContractNumber": "WS-MOCK-WASTE-ID",
+                    "waterUsageLocationNumber": null,
+                    "waterUsageLocationAddress": null,
+                    "wasteCollectionAddress": "Mocktie 1",
+                    "waste": [
+                        {
+                            "type": "Biojäte",
+                            "amount": "96",
+                            "cost": "34",
+                            "amountUnit": "Kg",
+                            "costUnit": "EUR"
+                        },
+                        {
+                            "type": "Sekajäte",
+                            "amount": "180",
+                            "cost": "69",
+                            "amountUnit": "Kg",
+                            "costUnit": "EUR"
+                        },
+                        {
+                            "type": "Pakkausjäte",
+                            "amount": null,
+                            "cost": "32",
+                            "amountUnit": null,
+                            "costUnit": "EUR"
+                        }
+                    ],
+                    "water": []
+                }
+            ]
+        },
+        {
+            "moment": "2023-06",
+            "customers": [
+                {
+                    "address": "Mocktie 1 (- / WS-MOCK-WASTE-ID)",
+                    "wasteContractNumber": "WS-MOCK-WASTE-ID",
+                    "waterUsageLocationNumber": null,
+                    "waterUsageLocationAddress": null,
+                    "wasteCollectionAddress": "Mocktie 1",
+                    "waste": [
+                        {
+                            "type": "Biojäte",
+                            "amount": "120",
+                            "cost": "43",
+                            "amountUnit": "Kg",
+                            "costUnit": "EUR"
+                        },
+                        {
+                            "type": "Sekajäte",
+                            "amount": "144",
+                            "cost": "55",
+                            "amountUnit": "Kg",
+                            "costUnit": "EUR"
+                        },
+                        {
+                            "type": "Pakkausjäte",
+                            "amount": null,
+                            "cost": "40",
+                            "amountUnit": null,
+                            "costUnit": "EUR"
+                        }
+                    ],
+                    "water": []
+                }
+            ]
+        },
+        {
+            "moment": "2023-07",
+            "customers": [
+                {
+                    "address": "Mocktie 1 (- / WS-MOCK-WASTE-ID)",
+                    "wasteContractNumber": "WS-MOCK-WASTE-ID",
+                    "waterUsageLocationNumber": null,
+                    "waterUsageLocationAddress": null,
+                    "wasteCollectionAddress": "Mocktie 1",
+                    "waste": [
+                        {
+                            "type": "Biojäte",
+                            "amount": "96",
+                            "cost": "34",
+                            "amountUnit": "Kg",
+                            "costUnit": "EUR"
+                        },
+                        {
+                            "type": "Sekajäte",
+                            "amount": "144",
+                            "cost": "56",
+                            "amountUnit": "Kg",
+                            "costUnit": "EUR"
+                        },
+                        {
+                            "type": "Pakkausjäte",
+                            "amount": null,
+                            "cost": "32",
+                            "amountUnit": null,
+                            "costUnit": "EUR"
+                        }
+                    ],
+                    "water": []
+                }
+            ]
+        },
+        {
+            "moment": "2023-08",
+            "customers": [
+                {
+                    "address": "Mocktie 1 (- / WS-MOCK-WASTE-ID)",
+                    "wasteContractNumber": "WS-MOCK-WASTE-ID",
+                    "waterUsageLocationNumber": null,
+                    "waterUsageLocationAddress": null,
+                    "wasteCollectionAddress": "Mocktie 1",
+                    "waste": [
+                        {
+                            "type": "Biojäte",
+                            "amount": "96",
+                            "cost": "34",
+                            "amountUnit": "Kg",
+                            "costUnit": "EUR"
+                        },
+                        {
+                            "type": "Sekajäte",
+                            "amount": "180",
+                            "cost": "69",
+                            "amountUnit": "Kg",
+                            "costUnit": "EUR"
+                        },
+                        {
+                            "type": "Pakkausjäte",
+                            "amount": null,
+                            "cost": "40",
+                            "amountUnit": null,
+                            "costUnit": "EUR"
+                        }
+                    ],
+                    "water": []
+                }
+            ]
+        },
+        {
+            "moment": "2023-09",
+            "customers": [
+                {
+                    "address": "Mocktie 1 (- / WS-MOCK-WASTE-ID)",
+                    "wasteContractNumber": "WS-MOCK-WASTE-ID",
+                    "waterUsageLocationNumber": null,
+                    "waterUsageLocationAddress": null,
+                    "wasteCollectionAddress": "Mocktie 1",
+                    "waste": [
+                        {
+                            "type": "Biojäte",
+                            "amount": "120",
+                            "cost": "43",
+                            "amountUnit": "Kg",
+                            "costUnit": "EUR"
+                        },
+                        {
+                            "type": "Sekajäte",
+                            "amount": "144",
+                            "cost": "55",
+                            "amountUnit": "Kg",
+                            "costUnit": "EUR"
+                        },
+                        {
+                            "type": "Pakkausjäte",
+                            "amount": null,
+                            "cost": "32",
+                            "amountUnit": null,
+                            "costUnit": "EUR"
+                        }
+                    ],
+                    "water": []
+                }
+            ]
+        },
+        {
+            "moment": "2023-10",
+            "customers": [
+                {
+                    "address": "Mocktie 1 (- / WS-MOCK-WASTE-ID)",
+                    "wasteContractNumber": "WS-MOCK-WASTE-ID",
+                    "waterUsageLocationNumber": null,
+                    "waterUsageLocationAddress": null,
+                    "wasteCollectionAddress": "Mocktie 1",
+                    "waste": [
+                        {
+                            "type": "Biojäte",
+                            "amount": "96",
+                            "cost": "34",
+                            "amountUnit": "Kg",
+                            "costUnit": "EUR"
+                        },
+                        {
+                            "type": "Sekajäte",
+                            "amount": "144",
+                            "cost": "56",
+                            "amountUnit": "Kg",
+                            "costUnit": "EUR"
+                        },
+                        {
+                            "type": "Pakkausjäte",
+                            "amount": null,
+                            "cost": "32",
+                            "amountUnit": null,
+                            "costUnit": "EUR"
+                        }
+                    ],
+                    "water": []
+                }
+            ]
+        },
+        {
+            "moment": "2023-11",
+            "customers": [
+                {
+                    "address": "Mocktie 1 (- / WS-MOCK-WASTE-ID)",
+                    "wasteContractNumber": "WS-MOCK-WASTE-ID",
+                    "waterUsageLocationNumber": null,
+                    "waterUsageLocationAddress": null,
+                    "wasteCollectionAddress": "Mocktie 1",
+                    "waste": [
+                        {
+                            "type": "Biojäte",
+                            "amount": "96",
+                            "cost": "34",
+                            "amountUnit": "Kg",
+                            "costUnit": "EUR"
+                        },
+                        {
+                            "type": "Sekajäte",
+                            "amount": "180",
+                            "cost": "69",
+                            "amountUnit": "Kg",
+                            "costUnit": "EUR"
+                        },
+                        {
+                            "type": "Pakkausjäte",
+                            "amount": null,
+                            "cost": "40",
+                            "amountUnit": null,
+                            "costUnit": "EUR"
+                        }
+                    ],
+                    "water": []
+                }
+            ]
+        },
+        {
+            "moment": "2023-12",
+            "customers": [
+                {
+                    "address": "Mocktie 1 (- / WS-MOCK-WASTE-ID)",
+                    "wasteContractNumber": "WS-MOCK-WASTE-ID",
+                    "waterUsageLocationNumber": null,
+                    "waterUsageLocationAddress": null,
+                    "wasteCollectionAddress": "Mocktie 1",
+                    "waste": [
+                        {
+                            "type": "Biojäte",
+                            "amount": "96",
+                            "cost": null,
+                            "amountUnit": "Kg",
+                            "costUnit": "EUR"
+                        },
+                        {
+                            "type": "Sekajäte",
+                            "amount": "144",
+                            "cost": null,
+                            "amountUnit": "Kg",
+                            "costUnit": "EUR"
+                        }
+                    ],
+                    "water": []
+                }
+            ]
+        },
+        {
+            "moment": "2024-01",
+            "customers": [
+                {
+                    "address": "Mocktie 1 (- / WS-MOCK-WASTE-ID)",
+                    "wasteContractNumber": "WS-MOCK-WASTE-ID",
+                    "waterUsageLocationNumber": null,
+                    "waterUsageLocationAddress": null,
+                    "wasteCollectionAddress": "Mocktie 1",
+                    "waste": [
+                        {
+                            "type": "Biojäte",
+                            "amount": "96",
+                            "cost": null,
+                            "amountUnit": "Kg",
+                            "costUnit": "EUR"
+                        },
+                        {
+                            "type": "Sekajäte",
+                            "amount": "144",
+                            "cost": null,
+                            "amountUnit": "Kg",
+                            "costUnit": "EUR"
+                        }
+                    ],
+                    "water": []
+                }
+            ]
+        },
+        {
+            "moment": "2024-02",
+            "customers": [
+                {
+                    "address": "Mocktie 1 (- / WS-MOCK-WASTE-ID)",
+                    "wasteContractNumber": "WS-MOCK-WASTE-ID",
+                    "waterUsageLocationNumber": null,
+                    "waterUsageLocationAddress": null,
+                    "wasteCollectionAddress": "Mocktie 1",
+                    "waste": [
+                        {
+                            "type": "Biojäte",
+                            "amount": "96",
+                            "cost": null,
+                            "amountUnit": "Kg",
+                            "costUnit": "EUR"
+                        },
+                        {
+                            "type": "Sekajäte",
+                            "amount": "72",
+                            "cost": null,
+                            "amountUnit": "Kg",
+                            "costUnit": "EUR"
+                        }
+                    ],
+                    "water": []
+                }
+            ]
+        },
+        {
+            "moment": "2024-03",
+            "customers": [
+                {
+                    "address": "Mocktie 1 (- / WS-MOCK-WASTE-ID)",
+                    "wasteContractNumber": "WS-MOCK-WASTE-ID",
+                    "waterUsageLocationNumber": null,
+                    "waterUsageLocationAddress": null,
+                    "wasteCollectionAddress": "Mocktie 1",
+                    "waste": [
+                        {
+                            "type": "Biojäte",
+                            "amount": "120",
+                            "cost": null,
+                            "amountUnit": "Kg",
+                            "costUnit": "EUR"
+                        },
+                        {
+                            "type": "Sekajäte",
+                            "amount": "72",
+                            "cost": null,
+                            "amountUnit": "Kg",
+                            "costUnit": "EUR"
+                        }
+                    ],
+                    "water": []
+                }
+            ]
+        },
+        {
+            "moment": "2024-04",
+            "customers": [
+                {
+                    "address": "Mocktie 1 (- / WS-MOCK-WASTE-ID)",
+                    "wasteContractNumber": "WS-MOCK-WASTE-ID",
+                    "waterUsageLocationNumber": null,
+                    "waterUsageLocationAddress": null,
+                    "wasteCollectionAddress": "Mocktie 1",
+                    "waste": [
+                        {
+                            "type": "Biojäte",
+                            "amount": "96",
+                            "cost": null,
+                            "amountUnit": "Kg",
+                            "costUnit": "EUR"
+                        },
+                        {
+                            "type": "Sekajäte",
+                            "amount": "108",
+                            "cost": null,
+                            "amountUnit": "Kg",
+                            "costUnit": "EUR"
+                        }
+                    ],
+                    "water": []
+                }
+            ]
+        },
+        {
+            "moment": "2024-05",
+            "customers": [
+                {
+                    "address": "Mocktie 1 (- / WS-MOCK-WASTE-ID)",
+                    "wasteContractNumber": "WS-MOCK-WASTE-ID",
+                    "waterUsageLocationNumber": null,
+                    "waterUsageLocationAddress": null,
+                    "wasteCollectionAddress": "Mocktie 1",
+                    "waste": [
+                        {
+                            "type": "Biojäte",
+                            "amount": "24",
+                            "cost": null,
+                            "amountUnit": "Kg",
+                            "costUnit": "EUR"
+                        }
+                    ],
+                    "water": []
+                }
+            ]
+        }
+    ],
+    "success": true
+}
