@@ -4,8 +4,8 @@ Projektin nimi on "Veden kulutuksen seuranta", tekijänä Kimmo Lehtimäki
 
 ## Verkkolinkit:
 
-Pääset julkaistuun sovellukseen käsiksi osoitteessa [https://]
-Linkki projektin videoesittelyyn [ScreenPal](https://go.screenpal.)
+Pääset julkaistuun sovellukseen käsiksi osoitteessa [https://vesikulutus.netlify.app/]
+Linkki projektin videoesittelyyn [ScreenPal](https://go.screenpal.com/watch/cTlhF7nYVOi)
 
 ## Työn jakautuminen
 
@@ -13,9 +13,9 @@ Työ tehtiin yksilötyönä
 
 ## Oma arvio työstä ja oman osaamisen kehittymisestä
 
-Työ opetti jälleen paljon, vaikka tuntuukin että täysin tutuiksi en jQuery kanssa toimimiseen päässytkään. Joka tapauksessa projektissa olleet vastoinkäymiset opettivat jälleen paljon ohjelmistokehityksestä ja antoi hyödyllistä tietoa jatkoa ajatellen.
+Työ opetti jälleen paljon, vaikka tuntuukin että täysin tutuiksi en jQuery:n kanssa toimimiseen päässytkään. Joka tapauksessa projektissa olleet vastoinkäymiset opettivat jälleen paljon ohjelmistokehityksestä ja antoi hyödyllistä tietoa jatkoa ajatellen.
 
-Onnistuin saamaan tehtävänannon määrittämät vaatimukset pääsääntöisesti sisällytettyä sovellukseen. Käyttämäni API ei kuitenkaan mahdollistanut API-kutsuja selaimesta, joten ulkopuolisen datan dynaaminen hakeminen jäi tällä kertaa pois, koska osaaminen ja ajankäyttö ei tällä kertaa mahdollistanut alkaa harjoittelemaan backendistä lähteviä API-kutsuja. 
+Onnistuin saamaan tehtävänannon määrittämät vaatimukset pääsääntöisesti sisällytettyä sovellukseen. Käyttämäni API ei kuitenkaan mahdollistanut API-kutsuja selaimesta, joten ulkopuolisen datan dynaaminen hakeminen jäi tällä kertaa pois, koska osaaminen ja ajankäyttö ei mahdollistanut alkaa harjoittelemaan backendistä lähteviä API-kutsuja. 
 
 Sovelluksen alkluperäisenä tarkoituksena oli hakea vesi- ja jätepalvelun kulutustietoja HSY:n tilastorajapinnasta testitunnuksilla. HSY:n API ei kuitenkaan mahdollistanut API-kutsujen tekemistä selaimesta, vaan palautti CORS-virhettä. Päätin kuitenkin jatkaa valitsemallani tiellä ja hain Postman:n kautta muutaman testidatasetin tallennettavaksi projektikansioon.
 
@@ -38,7 +38,7 @@ Kurssi on ollut yksi hyödyllisimmistä opintojen aikana ja oppia on tullut palj
 
 ## Tietoja sovelluksesta
 
-Veden kulutuksen seuranta on sovellus, jolla oli tarkoitus mahdollistaa taloyhtiön osakkeiden seurata kiinteistön vedenkulutusta ja jätemääriä. HSY:n API myös mahdollistaa vesimittarilukemien lähettämisen rajapinnan kautta, johon sovellusta oli tarkoitusta laajentaa.
+Veden kulutuksen seuranta on sovellus, jolla oli tarkoitus mahdollistaa taloyhtiön osakkaiden seurata kiinteistön vedenkulutusta ja jätemääriä. HSY:n API myös mahdollistaa vesimittarilukemien lähettämisen rajapinnan kautta, johon sovellusta oli tarkoitusta laajentaa.
 
 ## Tunnetut virheet/bugit
 
@@ -63,9 +63,9 @@ Kirjoita lyhyet ohjeet sovelluksen käynnistämiseen ja käyttöön. Esimerkiksi
 
 ## Kiitokset
 
-Käytin projektin työstämiseen netistä löytyviä tutoraaleja, jotka listattu alla. ChatGPT:tä jouduin käyttämään aika paljon testi-JSON datan parsimiseen ja esittämiseen ratkaisun löytämiseksi. Löysin muutaman hyvän tutoriaalin ja koulutuspaketin joihin oli helppo turvautua kehittämisen aikana. Nämä listattuna aal
+Käytin projektin työstämiseen netistä löytyviä tutoriaaleja, jotka listattu alla. ChatGPT:tä jouduin käyttämään  testi-JSON datan parsimiseen ja esittämiseen ratkaisun löytämiseksi. Löysin muutaman hyvän tutoriaalin ja koulutuspaketin joihin oli helppo turvautua kehittämisen aikana. 
 
-- [Joe Marini] - jQuery Essential Training (https://www.linkedin.com/learning/jquery-essential-training-24696205/jquery-write-less-do-more)
+- [Marini,Joe] - jQuery Essential Training (https://www.linkedin.com/learning/jquery-essential-training-24696205/jquery-write-less-do-more)
 - [Digital Fox] - Create Dynamic Charts with JSON, JavaScript and Chart.js (https://www.youtube.com/watch?v=XPOSEf40SkQ)
 - [Polston,Vince] - Chart JS Crash Course for Beginners | ChartJS Tutorial (https://www.youtube.com/watch?v=yD3kXXJTqsc)
 - [ChartJS] - How to Connect DataTables With Chart.js 4 (https://www.youtube.com/watch?v=6zSgYVqGo24)
